@@ -1,0 +1,155 @@
+NET "ABus<0>"  LOC = "p179";
+NET "ABus<1>"  LOC = "p178"; 
+NET "ABus<2>"  LOC = "p177"; 
+NET "ABus<3>"  LOC = "p172"; 
+NET "ABus<4>"  LOC = "p171"; 
+NET "ABus<5>"  LOC = "p151"; 
+NET "ABus<6>"  LOC = "p150"; 
+NET "ABus<7>"  LOC = "p147"; 
+NET "ABus<8>"   LOC = "p146"  ; 
+NET "ABus<9>"   LOC = "p113"  ; 
+NET "ABus<10>"  LOC = "p115"  ; 
+NET "ABus<11>"  LOC = "p116"  ; 
+NET "ABus<12>"  LOC = "p119"  ; 
+NET "ABus<13>"  LOC = "p140"  ; 
+NET "ABus<14>"  LOC = "p144"  ; 
+NET "ABus<15>"  LOC = "p145"  ; 
+
+NET "DBus<0>"  LOC = "p167"  ; 
+NET "DBus<1>"  LOC = "p165"  ; 
+NET "DBus<2>"  LOC = "p164"  ; 
+NET "DBus<3>"  LOC = "p163"  ; 
+NET "DBus<4>"  LOC = "p162"  ; 
+NET "DBus<5>"  LOC = "p161"  ; 
+NET "DBus<6>"  LOC = "p160"  ; 
+NET "DBus<7>"  LOC = "p153"  ; 
+NET "DBus<8>"   LOC = "p120"  ; 
+NET "DBus<9>"   LOC = "p122"  ; 
+NET "DBus<10>"  LOC = "p123"  ; 
+NET "DBus<11>"  LOC = "p128"  ; 
+NET "DBus<12>"  LOC = "p132"  ; 
+NET "DBus<13>"  LOC = "p133"  ; 
+NET "DBus<14>"  LOC = "p134"  ; 
+NET "DBus<15>"  LOC = "p135"  ; 
+
+# 开关组K0
+NET "R0<0>"  LOC = "p154"  ;
+NET "R0<1>"  LOC = "p148"  ;
+NET "R0<2>"  LOC = "p142"  ;
+NET "R0<3>"  LOC = "p136"  ;
+NET "R0<4>"  LOC = "p130"  ;
+NET "R0<5>"  LOC = "p124"  ;
+NET "R0<6>"  LOC = "p118"  ;
+NET "R0<7>"  LOC = "p110"  ;
+
+# 开关组K1
+NET "R1<0>"  LOC = "p174"  ;
+NET "R1<1>"  LOC = "p204"  ;
+NET "R1<2>"  LOC = "p194"  ;
+NET "R1<3>"  LOC = "p175"  ;
+NET "R1<4>"  LOC = "p169"  ;
+NET "R1<5>"  LOC = "p101"  ;
+NET "R1<6>"  LOC = "p97"   ;
+NET "R1<7>"  LOC = "p96"   ;
+
+## 开关组K2
+NET "R2<0>"  LOC = "p94"  ;
+NET "R2<1>"  LOC = "p93"  ;
+NET "R2<2>"  LOC = "p91"  ;
+NET "R2<3>"  LOC = "p90"  ;
+NET "R2<4>"  LOC = "p89"  ;
+NET "R2<5>"  LOC = "p87"  ;
+NET "R2<6>"  LOC = "p80"  ;
+NET "R2<7>"  LOC = "p78"  ;
+#
+## 开关组K3
+NET "R3<0>"  LOC = "p72"  ;
+NET "R3<1>"  LOC = "p71"  ;
+NET "R3<2>"  LOC = "p69"  ;
+NET "R3<3>"  LOC = "p68"  ;
+NET "R3<4>"  LOC = "p65"  ;
+NET "R3<5>"  LOC = "p64"  ;
+NET "R3<6>"  LOC = "p58"  ;
+NET "R3<7>"  LOC = "p57"  ;
+
+# 开关组K4
+NET "CLK"    		LOC = "p75"; #时钟
+NET "RESET"  		LOC = "p54"; #0
+NET "Choice<0>" 	LOC = "p43"; #6
+NET "Choice<1>" 	LOC = "p51"; #7
+
+## 数码管S0-S3
+NET "Output<0>"  LOC = "p4"   ;
+NET "Output<1>"  LOC = "p5"   ;
+NET "Output<2>"  LOC = "p8"   ;
+NET "Output<3>"  LOC = "p9"   ;
+NET "Output<4>"  LOC = "p11"  ;
+NET "Output<5>"  LOC = "p12"  ;
+NET "Output<6>"  LOC = "p15"  ;
+NET "Output<7>"  LOC = "p16"  ;
+
+NET "Output<8>"  LOC = "p18"  ;
+NET "Output<9>"  LOC = "p19"  ;
+NET "Output<10>"  LOC = "p22"  ;
+NET "Output<11>"  LOC = "p23"  ;
+NET "Output<12>"  LOC = "p24"  ;
+NET "Output<13>"  LOC = "p25"  ;
+NET "Output<14>"  LOC = "p28"  ;
+NET "Output<15>"  LOC = "p29"  ;
+
+NET "Output<16>"  LOC = "p31"  ;
+NET "Output<17>"  LOC = "p33"  ;
+NET "Output<18>"  LOC = "p34"  ;
+NET "Output<19>"  LOC = "p35"  ;
+NET "Output<20>"  LOC = "p36"  ;
+NET "Output<21>"  LOC = "p39"  ;
+NET "Output<22>"  LOC = "p40"  ;
+NET "Output<23>"  LOC = "p41"  ;
+
+NET "Output<24>"  LOC = "p42"  ;
+NET "Output<25>"  LOC = "p45"  ;
+NET "Output<26>"  LOC = "p47"  ;
+NET "Output<27>"  LOC = "p48"  ;
+NET "Output<28>"  LOC = "p49"  ;
+NET "Output<29>"  LOC = "p50"  ;
+NET "Output<30>"  LOC = "p55"  ;
+NET "Output<31>"  LOC = "p56"  ;
+
+# 数码管S4-S5
+NET "IR_test<0>"   LOC = "p60"  ;
+NET "IR_test<1>"   LOC = "p61"  ;
+NET "IR_test<2>"   LOC = "p62"  ;
+NET "IR_test<3>"   LOC = "p63"  ;
+NET "IR_test<4>"   LOC = "p2"   ;
+NET "IR_test<5>"   LOC = "p108" ;
+NET "IR_test<6>"   LOC = "p109" ;
+NET "IR_test<7>"   LOC = "p112" ;
+NET "IR_test<8>"   LOC = "p126" ;
+NET "IR_test<9>"   LOC = "p127" ;
+NET "IR_test<10>"  LOC = "p129" ;
+NET "IR_test<11>"  LOC = "p202" ;
+NET "IR_test<12>"  LOC = "p203" ;
+NET "IR_test<13>"  LOC = "p205" ;
+NET "IR_test<14>"  LOC = "p206" ;
+NET "IR_test<15>"  LOC = "p103" ;
+
+# A[7..5]
+NET "PAddr(0)"      LOC = "P77" ;
+NET "PAddr(1)"      LOC = "P185";
+
+# B[7..0]
+NET "Rupdate_test"  LOC = "p196";
+NET "RIO" 		    LOC = "p193";
+NET "WIO" 		    LOC = "p192";
+NET "PREQ" 		    LOC = "p190";
+NET "T_test<0>"     LOC = "p3"  ; 
+NET "T_test<1>"     LOC = "p200"; 
+NET "T_test<2>"     LOC = "p199"; 
+NET "T_test<3>"     LOC = "p197";
+
+# 存储器控制线
+NET "MREQ"  LOC = "p168" ; 
+NET "RM"    LOC = "p139" ; 
+NET "WM"    LOC = "p152" ; 
+NET "BLE"   LOC = "p137" ; 
+NET "BHE"   LOC = "p138" ; 
